@@ -17,6 +17,9 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
+  "devDependencies": {
+    "aws-sdk": "^2.853.0"
+  },
   "eslintConfig": {
     "extends": [
       "react-app",
