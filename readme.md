@@ -1,6 +1,12 @@
 ```
 npm install -g serverless
 serverless config credentials --provider aws --profile knightybird --key accessid --secret secretkey
+npm install -g @aws-amplify/cli
+amplify init
+amplify add api
+    > GraphQL
+    > Amazon Cognito User Pool
+amplify push
 ```
 
 #### Email Service
